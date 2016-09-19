@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_data_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/profile_field"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_weight="6.99"
+        android:gravity="left"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_field_value"
+        android:layout_width="228dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="right"
+        android:hint="Enter email address for reminders to work"
+        android:textSize="20sp" />
+
+</LinearLayout>

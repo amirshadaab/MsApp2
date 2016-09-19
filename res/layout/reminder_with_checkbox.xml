@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reminderWithCheckbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+	android:layout_x="30dp"
+	android:layout_y="20dp"
+	android:gravity="left">
+
+<CheckedTextView
+	android:id="@+id/reminder"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:checked = "false"
+	android:clickable = "false"
+	android:focusable = "true"		
+	android:gravity="left"
+	android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"	
+	android:textColorHighlight="#656565">
+</CheckedTextView>
+</LinearLayout>
+<!-- android:drawableLeft="@drawable/custom_radio_check" -->
+
+<!--  android:drawableLeft="?android:attr/listChoiceIndicatorMultiple" -->
+<!--  	android:checkMark="?android:attr/listChoiceIndicatorMultiple" -->

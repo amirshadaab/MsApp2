@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BPPV Physio Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Tutorial</string>
+    <string name="title_section3">Exercise Buddy</string>
+    <string name="title_section4">Reminders</string>
+    <string name="title_section5">Workouts</string>
+    <string name="title_section6">Incidents</string>
+    <string name="title_section7">About</string>
+    <string name="title_section8">Profile</string>
+    
+    <string name="reminder_empty_help">
+        <![CDATA[
+        <font face="Comic sans MS"> 
+        <font color="purple"><b> Currently there are no exercise reminders to show...<b></font> 
+        <br><br><br><br> 
+   		<table> 
+   			<tr> 
+    			<td> <img src="file:///android_res/drawable/ic_menu_add.png"/> </td>
+    			<td> Add reminder option allows you to elect date and time for your next exercise.
+    			A reminder for selected date and time is automatically added to your calendar. </td> 
+   			</tr> 
+   			<tr>
+    			<td> <img src="file:///android_res/drawable/ic_menu_delete.png"/> </td>
+    			<td> Delete selected exercise reminders. </td>
+ 			</tr>
+ 		</table>
+ 		</font>
+    	]]>
+    </string>
+
+    <string name="incident_empty_help">
+        <![CDATA[
+        <font face="Comic sans MS"> 
+        <font color="purple"><b> Currently there are no BPPV incident records to show...<b></font> 
+        <br><br><br><br> 
+   		<table> 
+   			<tr> 
+    			<td> <img src="file:///android_res/drawable/ic_menu_add.png"/> </td>
+    			<td> For each episode of BPPV, use this option to populate incident history. </td> 
+   			</tr> 
+   			<tr>
+    			<td> <img src="file:///android_res/drawable/ic_menu_delete.png"/> </td>
+    			<td> Delete selected incident records. </td>
+ 			</tr>
+ 			<tr>
+    			<td> <img src="file:///android_res/drawable/ic_dialog_email.png"/> </td>
+    			<td> Share incident records through email. </td>
+ 			</tr>
+ 			
+ 		</table>
+ 		</font>
+    	]]>
+    </string>
+    
+    <string name="workout_empty_help">
+        <![CDATA[
+        <font face="Comic sans MS"> 
+		<font color="purple"><b> Currently there is no workout history to show...<b></font> 
+        <br><br><br><br> 
+   		<table> 
+   			<tr> 
+    			<td> <img src="file:///android_res/drawable/ic_menu_add.png"/> </td>
+    			<td> Add details of completed BPPV sessions. Along with date and time specify number of 
+    				vertigos experienced.</td>
+   			</tr> 
+   			<tr>
+    			<td> <img src="file:///android_res/drawable/ic_menu_delete.png"/> </td>
+    			<td> Delete selected workout sessions. </td>
+ 			</tr>
+ 			<tr>
+    			<td> <img src="file:///android_res/drawable/ic_dialog_email.png"/> </td>
+    			<td> Share selected workout session details through email. </td>
+ 			</tr>
+ 		</table>
+ 		</font>
+    	]]>
+    </string>
+    
+    <string name="ABOUT_PAGE">
+        <![CDATA[
+        <html>       
+        	<head>
+        		<style type=\"text/css\">body { font-family: "Comic Sans MS", cursive, sans-serif;font-size: medium;color: black}</style>
+        	</head>                                                                   
+		    <body>    
+		        <H3>BPPV Physio Tracker - version 0.1</H3>"                               
+		                                                                                
+			        <p> This application makes managing BPPV Physio exercises a breeze. 
+			 It allows users to manage therapy reminders, workout and incident history.  
+			 With a video tutorial of BPPV therapy exercises and sensors assisted exercise 
+			 buddy, it allows patients to correctly complete and stay on top of the therapy
+			 regime.
+			 
+					<p> Application developed as part of the joint research by 
+					<a href="http://cs.uic.edu/Buy>Professor Ugo Buy</a> and 
+					<a href="">Dr. Matthew Kircher</a>.			 
+					
+		        <p> Help: <a href="http://cs.uic.edu/~bsingh7/bppv_tracker.html"> home </a>  
+		        <p> Feedback/Bugs/Suggestions: buy@cs.uic.edu
+			</body>                                                                     
+		</html>  
+    	]]>
+    </string>
+    
+    <string name="WORKOUT_BUDDY">
+        <![CDATA[
+        <html>       
+        	<head>
+        		<style type=\"text/css\">body { font-family: "Comic Sans MS", cursive, sans-serif;font-size: medium;color: black}</style>
+        	</head>                                                                   
+		    <body>    
+		        <H3> Workout Buddy </H3>"                               
+		                                                                                
+			        <p> Coming soon... 
+			 			 
+			</body>                                                                     
+		</html>  
+    	]]>
+    </string>
+    
+    <string name="profile_empty_help">
+        <![CDATA[
+        <font face="Comic sans MS"> 
+        <font color="purple"><b> The profile email address hasnt been set yet...<b></font> 
+        <br><br><br><br> 
+   		<table> 
+   			<tr> 
+    			<td> <img src="file:///android_res/drawable/ic_menu_add.png"/> </td>
+    			<td> Edit email option allows you to set email address. The calendar for this email address
+    			will be used to set/reset exercise reminders. </td> 
+   			</tr> 
+ 		</table>
+ 		</font>
+    	]]>
+    </string>
+    
+    <string name="email_hint">
+        Enter email
+    </string>
+    
+      <string name="WELCOME_PAGE">
+        <![CDATA[
+  <html>       
+       <head>
+       <style type=\"text/css\">body { font-family: "Comic Sans MS", cursive, sans-serif;font-size: medium;color: black}</style>
+        	</head>                                                                   
+		    <body>    
+		        <H3> <font color=green>Greetings!! </font></H3>                               
+		                                                                                
+			   <p> BPPV Tracker is designed to help patients complete physio exercises for improving Benign Paroxysmal Positional Vertigo (BPPV) condition. 
+			        Features include 
+			        
+			        <ul>
+			        	<li> <bf> Video Tutorial </bf> </li>
+						<li> <bf> Workout Reminders </bf> </li>
+						<li> <bf> Workout History </bf> </li>
+						<li> <bf> Incident History </bf> </li>
+						<li> <bf> Profile Changes</bf> </li>
+			        <ul>
+			        
+					<bf> NOTE: </bf> Please enter your email address in the profile 
+					page to start taking advantage of reminders. <br>
+
+			        It allows users to manage therapy reminders, workout and incident history.  
+			 With a video tutorial of BPPV therapy exercises and sensors assisted exercise 
+			 buddy, it allows patients to correctly complete and stay on top of the therapy
+			 regime.
+			 
+					<p> Application developed as part of the joint research by 
+					<a href="http://cs.uic.edu/Buy>Professor Ugo Buy</a> and 
+					<a href="https://plus.google.com/116777287338892613116/about?gl=us&hl=en">Dr. Matthew Kircher, MD</a>.			 
+					
+		        <p> Help: <a href="http://cs.uic.edu/~bsingh7/bppv_tracker.html"> home </a>  
+		        <p> Feedback/Bugs/Suggestions: buy@cs.uic.edu
+			</body>                                                                     
+		</html>  
+    	]]>
+    </string>
+      <string name="email">email</string>
+      <string name="add">add</string>
+      <string name="delete">delete</string>
+      <string name="textForButton">Welcome to Exercise Buddy</string>
+      <string name="readingx">Accelerometer X: </string>
+      <string name="readingy">Accelerometer Y: </string>
+      <string name="readingz">Accelerometer Z: </string>
+      <string name="imageDescription">Dizzy woman</string>
+      <string name="orientationx">Pitch:</string>
+      <string name="orientationy">Roll:</string>
+      <string name="orientationz">Azimuth:</string>
+    
+    
+</resources>
